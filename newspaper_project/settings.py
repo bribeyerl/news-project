@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^bv&thryq87znm82s=t3&vb2ray87f_e)f1uy%-v7fsa#r*ang'
+SECRET_KEY = 'secret key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -139,13 +139,13 @@ CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-DEFAULT_FROM_EMAIL = 'My Domain <bri@greatjones.co>'
+DEFAULT_FROM_EMAIL = 'My Domain <briabeyerl@gmail.com>'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 
 EMAIL_HOST_USER = 'apikey'
 
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = 'security key'
 
 EMAIL_PORT = 587
 
